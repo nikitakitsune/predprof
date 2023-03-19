@@ -1,12 +1,32 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Космические фермеры</title>
 </head>
-<body>
-    
+<body class="body">
+    <main class="main">
+        <div class="block">
+            <h2 class="block__header">Количество дней</h2>
+            <p class="block__meaning">32</p>
+        </div>
+        <div class="block">
+            <h2 class="block__header">Расход ресурсов</h2>
+            <ul class="ul">
+                <li class="li">Первый ресурс</li>
+                <li class="li">Второй ресурс</li>
+            </ul>
+        </div>
+        <div class="block">
+            <h2 class="block__header"></h2>
+        </div>
+        <div class="block">
+            <h2 class="block__header"></h2>
+        </div>
+    </main>
 </body>
 </html>
