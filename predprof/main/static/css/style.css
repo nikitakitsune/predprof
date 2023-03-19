@@ -26,6 +26,10 @@ html {
     justify-content: space-between;
 }
 
+.main-header {
+    color: white;
+}
+
 .block {
     background-color: WhiteSmoke;
     border-radius: 5px;
